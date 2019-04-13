@@ -1,9 +1,10 @@
 module.exports = {
+	// Customize me!
 	siteMetadata: {
 		company: 'Visual Cloud FX',
-		domain: 'https://visualcloudFX.com',
-		defaultTitle: 'Web Application Development Agency',
-		preamble: "We're a San Antonio, Texas-based web application agency.",
+		domain: 'https://visualcloudfx.com',
+		defaultTitle: 'Website Change Monitoring Products and Services',
+		preamble: "We're a San  Antonio, Texas-based team of software engineers.",
 		defaultDescription:
 			'We develop our own products. And provide software engineering and consulting to select clients.',
 		postamble: "Think we can help your project? We'd love to hear from you:",
@@ -30,11 +31,11 @@ module.exports = {
 				logo: './images/logo.png',
 			},
 		},
-		//	{
-		//			resolve: `gatsby-plugin-google-analytics`,
-		//		options: {
-		//		trackingId: 'UA-120162676-1',
-		//			},
-		//	},
+		// {
+		//   resolve: `gatsby-plugin-google-analytics`,
+		//   options: {
+		//     trackingId: "UA-120162676-1",
+		//   },
+		// },
 	],
 }
