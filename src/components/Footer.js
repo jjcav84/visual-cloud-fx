@@ -23,7 +23,7 @@ const Footer = props => {
 						</Hidden>{' '}
 						{email}
 					</Typography>
-					<a href="https://github.com/jjcav84/visual-cloud-fx" target="_blank" rel="noopener noreferrer">
+					<a href="https://github.com/jjcv84/visual-cloud-fx" target="_blank" rel="noopener noreferrer">
 						<IconButton>
 							<GithubCircle />
 						</IconButton>
