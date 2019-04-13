@@ -1,6 +1,6 @@
-# Tiny Agency: Simple Gatsby.js Starter
+# Gatsby.js Visual Cloud FX Agency 
 
-**[Check out the demo.](https://foxandgeese.github.io/tiny-agency/)**
+**[Check out the demo.](https://visualcloudfx.com/)**
 
 We use this very repo for our own agency. Cool beans.
 
