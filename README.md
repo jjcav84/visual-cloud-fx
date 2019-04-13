@@ -1,6 +1,6 @@
-# Gatsby.js Visual Cloud FX Agency 
+# Gatsby.js Visual Cloud FX Agency
 
-**[Check out the demo.](https://visualcloudfx.com/)**
+**[Check out the demo app.](https://visualcloudfx.com/)**
 
 We use this very repo for our own agency. Cool beans.
 
