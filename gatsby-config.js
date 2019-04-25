@@ -1,12 +1,12 @@
 module.exports = {
-	// Customize me!
 	siteMetadata: {
 		company: 'Visual Cloud FX',
 		domain: 'https://visualcloudfx.com',
-		defaultTitle: 'Website Change Monitoring Products and Services',
-		preamble: "We're a San  Antonio, Texas-based team of software engineers.",
+		defaultTitle: 'Visual Cloud FX Consultants',
+		preamble:
+			"We're a San Antonio, Texas-based team of software engineers focusing on JavaScript and Golang Cloud Native Applications on Amazon Web Services.",
 		defaultDescription:
-			'We develop our own products. And provide software engineering and consulting to select clients.',
+			'We develop our own services and solutions in order to provide business effective software engineering and consulting to select clients.',
 		postamble: "Think we can help your project? We'd love to hear from you:",
 		contact: {
 			email: 'jacob@visualcloudfx.com',

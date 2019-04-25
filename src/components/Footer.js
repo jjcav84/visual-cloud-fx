@@ -3,8 +3,8 @@ import { StaticQuery, graphql } from 'gatsby'
 import Divider from '@material-ui/core/Divider'
 import Typography from '@material-ui/core/Typography'
 import Hidden from '@material-ui/core/Hidden'
-import IconButton from '@material-ui/core/IconButton'
-import { GithubCircle } from 'mdi-material-ui'
+//import IconButton from '@material-ui/core/IconButton'
+//import { GithubCircle } from 'mdi-material-ui'
 
 const Footer = props => {
 	const {
@@ -23,11 +23,6 @@ const Footer = props => {
 						</Hidden>{' '}
 						{email}
 					</Typography>
-					<a href="https://github.com/jjcv84/visual-cloud-fx" target="_blank" rel="noopener noreferrer">
-						<IconButton>
-							<GithubCircle />
-						</IconButton>
-					</a>
 				</div>
 			</footer>
 		</>
