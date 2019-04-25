@@ -1,12 +1,6 @@
 ---
-title: "Product Management"
-imageLink: "https://d3lubguj0jcn6d.cloudfront.net/what_is_a_product_manager-570x320.png"
+title: 'Business Analytics and Intelligence'
+imageLink: 'https://d3lubguj0jcn6d.cloudfront.net/what_is_a_product_manager-570x320.png'
 ---
 
-We excel at complex product development.
-
-We've brought products to market across the globe: both customer-facing and
-internal.
-
-We particularly love leading and aligning multiple stakeholders in
-multi-region Enterprise initiatives (really!).
+We will help you transform into an agile data centric business by leveraging off the shelf and custom solutions spread across the public cloud to enable your business to maintain competitiveness through the digital transformation.

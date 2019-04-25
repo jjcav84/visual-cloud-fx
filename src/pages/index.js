@@ -2,12 +2,12 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import SEO from '../components/SEO'
 import Page from '../components/Page'
-// import List from '../components/List'
-// import Tabs from '../components/Tabs'
+import List from '../components/List'
+import Tabs from '../components/Tabs'
 import { withStyles } from '@material-ui/core/styles'
 import Typography from '@material-ui/core/Typography'
-// import { Alien } from 'mdi-material-ui'
-// import { Robot } from 'mdi-material-ui'
+import { Alien } from 'mdi-material-ui'
+//import { Robot } from 'mdi-material-ui'
 import logo from '../../images/logo.png'
 import withRoot from '../utils/withRoot'
 import Avatar from '@material-ui/core/Avatar'
@@ -15,7 +15,7 @@ import Avatar from '@material-ui/core/Avatar'
 const styles = theme => ({
 		angles: {
 			color: theme.palette.secondary.light,
-			opacity: 0.5,
+			opacity: 0.8,
 		},
 		avatar: {
 			width: '160px',
@@ -40,17 +40,16 @@ const styles = theme => ({
 		const {
 			classes,
 			data: {
-				// Products: { edges: products },
-				// Services: { edges: services },
+				Services: { edges: services },
 				Basic: {
 					siteMetadata: {
 						domain,
 						company,
 						defaultTitle,
 						preamble,
-						// postamble,
+						postamble,
 						defaultDescription,
-						// contact: { email },
+						contact: { email },
 					},
 				},
 			},
@@ -70,7 +69,8 @@ const styles = theme => ({
 						</Avatar>
 					</center>
 					<Typography paragraph color="primary" gutterBottom variant="h1" component="span">
-						<span className={classes.angles}>&lt;</span> hi <span className={classes.angles}>&gt;</span>
+						<span className={classes.angles}>&lt;</span> Visual Cloud FX{' '}
+						<span className={classes.angles}>&gt;</span>
 					</Typography>
 					<Typography paragraph gutterBottom variant="body1" component="span">
 						{preamble}
@@ -79,15 +79,10 @@ const styles = theme => ({
 						{defaultDescription}
 					</Typography>
 				</div>
-				{/* <div className={props.classes.tabs}>
-					<Tabs
-						items={[
-							['Our Products', <Robot />, <List items={products} />],
-							['Our Services', <Alien />, <List items={services} />],
-						]}
-					/>
-				</div> */}
-				{/* <div className={classes.text}>
+				<div className={props.classes.tabs}>
+					<Tabs items={[['Our Services', <Alien />, <List items={services} />]]} />
+				</div>
+				<div className={classes.text}>
 					<Typography paragraph gutterBottom variant="body1" component="span">
 						{postamble}
 					</Typography>
@@ -95,7 +90,7 @@ const styles = theme => ({
 						<span className={classes.angles}>&lt;</span> {email}{' '}
 						<span className={classes.angles}>&gt;</span>
 					</Typography>
-				</div> */}
+				</div>
 			</Page>
 		)
 	}
@@ -112,20 +107,6 @@ export const query = graphql`
 				postamble
 				contact {
 					email
-				}
-			}
-		}
-		Products: allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/products/" } }) {
-			edges {
-				node {
-					html
-					frontmatter {
-						title
-						siteLink
-						imageLink
-						customWidth
-						customTopPadding
-					}
 				}
 			}
 		}

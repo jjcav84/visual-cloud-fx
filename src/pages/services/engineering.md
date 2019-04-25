@@ -1,11 +1,10 @@
 ---
-title: "Engineering"
-imageLink: "https://d3lubguj0jcn6d.cloudfront.net/engineering.png"
+title: 'Web and Application Development'
+imageLink: 'https://d3lubguj0jcn6d.cloudfront.net/engineering.png'
 ---
 
-- Robust, scalable, and self-healing
-- Python, Node.js, React.js, and more
-- Infrastructure as Code
-- NoOps / DevOps
-- AWS "everything": from Lambda to Fargate, to DynamoDB and beyond
-- Agile, Waterfall, and "wet agile" (bit of both!)
+-   Robust, scalable, and self-healing
+-   Node.js, React.js, and more
+-   Infrastructure as Code
+-   DevOps / Agile
+-   AWS, Azure, and Google Cloud Platform
